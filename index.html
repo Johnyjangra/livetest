@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- ---------my css-------------- -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <section>
+      <div class="hero_bg">
+        <nav class="nav_bg py-4">
+          <div class="container py-2">
+            <div class="d-flex justify-content-between">
+              <img
+                class="crsr_pointer"
+                src="./assets/images/svg/logo.svg"
+                alt="logo"
+              />
+              <input class="d-none" type="checkbox" id="checked" />
+              <ul
+                class="d-flex align-items-center ps-0 mb-0 mobile_ul sh ow op_0"
+                id="navbar"
+              >
+                <li class="nav_underline">
+                  <a
+                    class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                    href="#"
+                    >Litepaper</a
+                  >
+                </li>
+                <li class="ms_32 ms_md_0 mt-md-0 mt-3 nav_underline">
+                  <a
+                    class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                    href="#"
+                    >Case studies</a
+                  >
+                </li>
+                <li class="ms_32 ms_md_0 mt-md-0 mt-3 nav_underline">
+                  <a
+                    class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                    href="#"
+                    >About us</a
+                  >
+                </li>
+                <button
+                  class="ff_raleway fs_sm fw-bold clr_white bg_blue py_18 px_32 ms-md-5 ms_md_0 mt-md-0 mt-3 btn_hovr"
+                >
+                  Connect Wallet
+                </button>
+              </ul>
+              <label class="d_none d-md-none d-block" for="checked">
+                <div class="menuicon">
+                  <div class="nav_icon1"></div>
+                  <div class="nav_icon2"></div>
+                  <div class="nav_icon3"></div></div
+              ></label>
+            </div>
+          </div>
+        </nav>
+        <!-- ---------------hero------------------- -->
+        <div class="container pt-5">
+          <h1
+            class="ff_raleway fs_xxl fw-bold clr_white mx_792 text-center mx-auto mb-0"
+          >
+            Crypto connectors for
+            <span class="clr_blue fw_400 font_italic">IOT</span> and
+            <span class="clr_moreblue">MachineFi</span>
+          </h1>
+          <p class="ff_raleway fs_sm fw_400 clr_white text-center pt-3 mb-0">
+            Enabling IOT Machine-to-machine micro-transactions on the blockchain
+          </p>
+          <div class="row pt-3 position-relative">
+            <img
+              class="op_06 small_img_size position-absolute freeze_position animat_freeze"
+              src="./assets/images/svg/freeze.svg"
+              alt="animat_freeze"
+            />
+            <img
+              class="op_06 small_img_size position-absolute stove_position animate_stove"
+              src="./assets/images/svg/stove.svg"
+              alt="animate_stove"
+            />
+            <img
+              class="op_06 small_img_size position-absolute ac_position animat_freeze"
+              src="./assets/images/svg/ac.svg"
+              alt="animat_freeze"
+            />
+            <img
+              class="op_06 small_img_size position-absolute camera_position animate_stove"
+              src="./assets/images/svg/camera.svg"
+              alt="animate_stove"
+            />
+            <img
+              class="op_06 small_img_size position-absolute plate_position animat_freeze"
+              src="./assets/images/svg/plateset.svg"
+              alt="animat_freeze"
+            />
+            <img
+              class="op_06 small_img_size position-absolute tv_position animate_stove"
+              src="./assets/images/svg/tv.svg"
+              alt="animate_stove"
+            />
+            <img
+              class="small_img_plate position-absolute phone_position animat_freeze"
+              src="./assets/images/svg/phoneplate.svg"
+              alt="animat_freeze"
+            />
+            <img
+              class="op_06 small_img_size position-absolute washing_position animate_stove"
+              src="./assets/images/svg/washing.svg"
+              alt="animate_stove"
+            />
+            <img
+              class="op_06 small_img_size position-absolute light_position animat_freeze"
+              src="./assets/images/svg/light.svg"
+              alt="animat_freeze"
+            />
+            <img
+              class="op_06 small_img_size position-absolute stove2_position animate_stove"
+              src="./assets/images/svg/stove2.svg"
+              alt="animate_stove"
+            />
+            <img
+              class="op_06 small_img_size position-absolute cameralight_position animat_freeze"
+              src="./assets/images/svg/cameralight.svg"
+              alt="animat_freeze"
+            />
+            <div class="col-lg-4 col-sm-8 text-lg-end text-center">
+              <img
+                class="w_64 animat_phone"
+                src="./assets/images/png/iphone.png"
+                alt="iphone"
+              />
+            </div>
+            <div class="col-lg-8">
+              <img
+                class="w-100"
+                src="./assets/images/png/hero_group.png"
+                alt="hero_group"
+              />
+              <div
+                class="blr_box d-flex flex-column align-items-center justify-content-center position_sm_relative animat_phone mx-sm-0 mx-auto"
+              >
+                <p class="ff_raleway fs_md fw-bold clr_white text-center mb-0">
+                  Built on the lightning network
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div>
+          <img
+            class="w-100"
+            src="./assets/images/png/allimg.png"
+            alt="allimg"
+          />
+        </div> -->
+      </div>
+
+      <!-- ----------------------ourlet----------------------- -->
+      <div class="bg-black py-5 mt_m1">
+        <div class="container py-lg-5">
+          <h1
+            class="ff_raleway fs_xl fw_semibold clr_white text-center pb-5 mb-0"
+          >
+            Our <span class="clr_moreblue fw_400 font_italic">App </span>lets
+            you do
+          </h1>
+          <div
+            class="row pt-lg-5 justify-content-lg-start justify-content-center position-relative z-3"
+          >
+            <div class="col-lg-4 col-sm-6 position-relative z-5">
+              <img
+                class="position-absolute blur_1_set w_100 w_xs_80"
+                src="./assets/images/png/vc1_blur.png"
+                alt="vactor1"
+              />
+              <div
+                class="bg_blur text-center py-5 px-xl-5 px-md-3 px-2 position-relative h-100 z-2 scale_hovr before_shine overflow-hidden"
+              >
+                <img
+                  class="mt-4"
+                  src="./assets/images/svg/vactor1.svg"
+                  alt="vactor1"
+                />
+                <h1 class="ff_raleway fs_md fw-sembold clr_white pt-4 mt-2">
+                  Configure embedded iot devices
+                </h1>
+                <p class="ff_raleway fs_sm fw_400 clr_white lh_170 mb-0">
+                  Ridiculus lorem in odio condimentum massa ut massa nibh.
+                  Lectus dictum sed in donec cras.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 position-relative pt-sm-0 pt-4">
+              <img
+                class="position-absolute blur_1_set w_100 w_xs_80"
+                src="./assets/images/png/vc1_blur.png"
+                alt="vactor1"
+              />
+              <div
+                class="bg_blur text-center py-5 px-xl-5 px-md-3 px-2 position-relative h-100 scale_hovr before_shine overflow-hidden"
+              >
+                <img
+                  class="mt-4 br_rdc_20"
+                  src="./assets/images/svg/vactor2.svg"
+                  alt="vactor1"
+                />
+                <h1 class="ff_raleway fs_md fw-sembold clr_white pt-4 mt-2">
+                  Set up payment channels
+                </h1>
+                <p class="ff_raleway fs_sm fw_400 clr_white lh_170 mb-0">
+                  Ut vulputate feugiat velit tellus dignissim quam fu semper.
+                  Turpis ultricies eget tellus amet quisque quam pharetra
+                  ultrices.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 position-relative pt-lg-0 pt-4">
+              <img
+                class="position-absolute blur_1_set w_100 w_xs_80"
+                src="./assets/images/png/vc1_blur.png"
+                alt="vactor1"
+              />
+              <div
+                class="bg_blur text-center py-5 px-xl-5 px-md-3 px-2 position-relative h-100 scale_hovr before_shine overflow-hidden"
+              >
+                <img
+                  class="mt-4"
+                  src="./assets/images/svg/vactor3.svg"
+                  alt="vactor1"
+                />
+                <h1 class="ff_raleway fs_md fw-sembold clr_white pt-4 mt-2">
+                  Configure smart contract execution
+                </h1>
+                <p class="ff_raleway fs_sm fw_400 clr_white lh_170 mb-0">
+                  Adipiscing in in augue viverra egestas lectus nulla. Fames
+                  tincidunt libero purus neque fringilla.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------enable------------------ -->
+      <div class="bg-black position-relative mt_m1">
+        <img
+          class="position-absolute enable_blur_set"
+          src="./assets/images/png/enable_blur.png"
+          alt="enable_blur"
+        />
+        <div class="container py-l g-5">
+          <div class="row align-items-center flex-lg-row flex-column-reverse">
+            <div class="col-lg-6">
+              <div class="text-lg-start text-center position-relative z-2">
+                <h1 class="ff_raleway fs_xl fw_semibold clr_white mb-0">
+                  Enables devices to talk to
+                  <span class="clr_moreblue fw_400 font_italic"
+                    >multi-chains</span
+                  >
+                </h1>
+                <p class="ff_raleway fs_sm fw_400 clr_white lh_170 mb-0 pt-3">
+                  Vitae ornare proin vitae nulla eleifend. Sed imperdiet in
+                  dolor vestibulum egestas pellentesque tortor non tellus.
+                  Lobortis proin feugiat eget amet neque ut suscipit. In
+                  convallis pretium sem et quisque lacus turpis aliquam.
+                </p>
+                <button
+                  class="ff_raleway fs_sm fw-bold clr_white bg_blue py_18 px_32 mt-md-5 mt-4 btn_hovr"
+                >
+                  Join Now
+                </button>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-10">
+              <div>
+                <img
+                  class="w-100"
+                  src="./assets/images/png/bitcard.png"
+                  alt="bitcard"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -----------------range------------------- -->
+      <div class="bg-black mt_m1">
+        <div class="box_bg">
+          <div class="blur_up_shadow mb-lg-5"></div>
+          <div class="container py-lg-5 h-100">
+            <div class="py-lg-5 pt-5 h-100">
+              <div
+                class="row py-lg-5 align-items-center justify-content-center h-100 positio n-relative z -1"
+              >
+                <div class="col-lg-6 pe-xl-4 my-lg-5 position-relative z_50">
+                  <div>
+                    <div
+                      class="d-flex align-items-center bg_blur_card py-4 ps-sm-4 pe-lg-5 ps-2 pe-2 flex-sm-row flex-column scale_hovr"
+                    >
+                      <div
+                        class="blur_box d-flex flex-column align-items-center justify-content-center my-2 ms-md-2"
+                      >
+                        <img
+                          class="w_xs_45"
+                          src="./assets/images/svg/right.svg"
+                          alt="right"
+                        />
+                      </div>
+                      <div class="my-2 ps-sm-4 text-sm-start text-center">
+                        <p class="ff_raleway fs_md fw-sembold clr_white mb-0">
+                          Simplicity and ease of use
+                        </p>
+                        <p
+                          class="ff_raleway fs_sm fw_400 clr_white mb-0 pe-lg-5 pe-2"
+                        >
+                          Cannot run a full node. Need a gateway to the
+                          Blockchain
+                        </p>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center bg_blur_card py-4 ps-sm-4 pe-lg-5 ps-2 mt-3 pe-2 flex-sm-row flex-column scale_hovr"
+                    >
+                      <div
+                        class="blur_box d-flex flex-column align-items-center justify-content-center my-2 ms-lg-2"
+                      >
+                        <img
+                          class="w_xs_45 w_xxl_35"
+                          src="./assets/images/svg/range.svg"
+                          alt="range"
+                        />
+                      </div>
+                      <div class="my-2 ps-sm-4 text-sm-start text-center">
+                        <p class="ff_raleway fs_md fw-sembold clr_white mb-0">
+                          Simplicity and ease of use
+                        </p>
+                        <p
+                          class="ff_raleway fs_sm fw_400 clr_white mb-0 pe-lg-5 pe-2"
+                        >
+                          Cannot run a full node. Need a gateway to the
+                          Blockchain
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 my-lg-5 mt-4 position-relative z_50">
+                  <div class="text-lg-start text-center">
+                    <h1 class="ff_raleway fs_xl fw_semibold clr_white mb-0">
+                      We do the
+                      <span class="clr_moreblue font_italic fw_400"
+                        >toughest job</span
+                      >
+                      for you...
+                    </h1>
+                    <p class="ff_raleway fs_sm fw-sembold clr_white pt-3">
+                      You build your Dapps while we do all the backend
+                      heavy-lifting and on-chain integrations
+                    </p>
+                    <p class="ff_raleway fs_sm fw_400 lh_170 clr_white">
+                      With proliferation of IOT devices (in the billions), M2M
+                      transactions will be critical. Blockchain enables fast M2M
+                      transactions without intermediaries. Bitcoin is and will
+                      be the most widely adopted crypto currency However, IOT
+                      devices are constrained on space and computing power.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="blur_shadow"></div> -->
+      </div>
+
+      <!-- --------------------low code -->
+      <div class="bg-black py-lg-5 position-relative mt_m1">
+        <img
+          class="position-absolute low_blur_set w_xs_80"
+          src="./assets/images/png/low_blur1.png"
+          alt="low_blur1"
+        />
+        <div class="container py-5">
+          <h1
+            class="ff_raleway fs_xl fw_semibold clr_white mb-0 mx_580 text-center mx-auto pb-lg-4"
+          >
+            Low-code and
+            <span class="clr_moreblue fw_400 font_italic">No-code</span> SDKs
+            for MachineFi
+          </h1>
+          <div
+            class="row align-items-center justify-content-between pt-lg-5 pt-4"
+          >
+            <div class="col-lg-5 col-sm-10 mx-lg-0 mx-auto position-relative">
+              <img
+                class="position-absolute w_100 w_xs_80"
+                src="./assets/images/png/planatblur.png"
+                alt="planatblur"
+              />
+              <div class="position-relative z-2">
+                <img
+                  class="w-100"
+                  src="./assets/images/png/planat.png"
+                  alt="planat"
+                />
+                <div class="text-center">
+                  <button
+                    class="ff_raleway fs_sm fw-bold clr_white bg_blue py_18 px_32 mt-5 w-50 br_rdc_20 shadow btn_hovr"
+                  >
+                    BITBLUE
+                  </button>
+                </div>
+                <div class="text-center position-relative z_50">
+                  <img
+                    class="position-absolute wallet_set l_xs_10"
+                    src="./assets/images/svg/wallet.svg"
+                  />
+                  <button
+                    class="ff_raleway fs_sm fw-bold clr_white bg_gray py_18 px_32 w-50 br_rdc_20 mt-3 pl_xs_20 btn_hovr"
+                  >
+                    BLOCKCHAIN
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 position-relative z_50">
+              <div class="text-lg-start text-center pt-lg-0 pt-5">
+                <img
+                  class="scale_hovr"
+                  src="./assets/images/png/circle1.png"
+                  alt="circle1"
+                />
+                <p
+                  class="ff_raleway fs_md fw-sembold clr_white pe-lg-5 pt-3 mb-0"
+                >
+                  Blockchain enabled backend platform for embedded devices
+                </p>
+                <div class="pt-lg-5 pt-4">
+                  <img
+                    class="scale_hovr"
+                    src="./assets/images/png/circle2.png"
+                    alt="circle2"
+                  />
+                  <p class="ff_raleway fs_md fw-sembold clr_white pt-3 mb-0">
+                    Client SDKs
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="position-absolute end-0 top_blr2_set"
+          src="./assets/images/png/low_blur_2.png"
+          alt="low_blur_2"
+        />
+      </div>
+
+      <!-- ---------------------FAQ--------------- -->
+      <div class="bg-black mt_m1 pt-5">
+        <div class="container py-lg-5">
+          <h1
+            class="ff_raleway fs_2lg fw-sembold clr_white mb-0 text-center pb-lg-5 pb-4"
+          >
+            FAQs
+          </h1>
+          <div class="accordion pt-lg-4" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Euismod metus consectetur odio elementum dui eros.
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Fusce ac blandit tellus. Vivamus id sapien elementum,
+                  condimentum turpis non, maximus mauris. Nullam nec justo nec
+                  tortor venenatis aliquet lobortis id purus. Integer vitae arcu
+                  quis erat varius vulputate.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-4">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Donec sit urna odio faucibus odio. Justo molestie.
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Fusce ac blandit tellus. Vivamus id sapien elementum,
+                  condimentum turpis non, maximus mauris. Nullam nec justo nec
+                  tortor venenatis aliquet lobortis id purus. Integer vitae arcu
+                  quis erat varius vulputate.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-4">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Pretium lacinia et posuere porta elit. Pellentesque in elit.
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Fusce ac blandit tellus. Vivamus id sapien elementum,
+                  condimentum turpis non, maximus mauris. Nullam nec justo nec
+                  tortor venenatis aliquet lobortis id purus. Integer vitae arcu
+                  quis erat varius vulputate.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-4">
+              <h2 class="accordion-header" id="headingFour">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Vel tristique nunc sit non ac ut. Velit pharetra nunc.
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Fusce ac blandit tellus. Vivamus id sapien elementum,
+                  condimentum turpis non, maximus mauris. Nullam nec justo nec
+                  tortor venenatis aliquet lobortis id purus. Integer vitae arcu
+                  quis erat varius vulputate.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mt-4">
+              <h2 class="accordion-header" id="headingFive">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Duis curabitur tincidunt velit cursus. Vulputate at at.
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Fusce ac blandit tellus. Vivamus id sapien elementum,
+                  condimentum turpis non, maximus mauris. Nullam nec justo nec
+                  tortor venenatis aliquet lobortis id purus. Integer vitae arcu
+                  quis erat varius vulputate.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- -------------------engage with----------------- -->
+      <div class="bg-black py-5 mt_m1">
+        <div class="container py-5">
+          <h1
+            class="ff_raleway fs_xl fw-sembold clr_white text-center mb-0 pb-lg-5"
+          >
+            <span class="font_italic fw_400 clr_moreblue">Engage </span>with us
+          </h1>
+          <div class="row justify-content-between align-items-center pt-5">
+            <div class="col-lg-5">
+              <div class="gray_back p_32">
+                <div class="d-flex">
+                  <div>
+                    <img
+                      class="br_rdc_20"
+                      src="./assets/images/svg/mail.svg"
+                      alt="mail"
+                    />
+                  </div>
+                  <div class="ps-3">
+                    <p class="ff_raleway fs_md fw-sembold clr_white mb-0">
+                      Email us
+                    </p>
+                    <p
+                      class="ff_raleway fs_sm fw_400 lh_170 clr_white op_06 mb-0"
+                    >
+                      Example@bitblue.in
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex pt-4 mt-2">
+                  <div>
+                    <img
+                      class="br_rdc_20"
+                      src="./assets/images/svg/phone.svg"
+                      alt="mail"
+                    />
+                  </div>
+                  <div class="ps-3">
+                    <p class="ff_raleway fs_md fw-sembold clr_white mb-0">
+                      Phone
+                    </p>
+                    <p
+                      class="ff_raleway fs_sm fw_400 lh_170 clr_white op_06 mb-0"
+                    >
+                      +1 1223-482-33
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex pt-4 mt-2">
+                  <div>
+                    <img
+                      class="br_rdc_20"
+                      src="./assets/images/svg/ocation.svg"
+                      alt="mail"
+                    />
+                  </div>
+                  <div class="ps-3">
+                    <p class="ff_raleway fs_md fw-sembold clr_white mb-0">
+                      Address
+                    </p>
+                    <p
+                      class="ff_raleway fs_sm fw_400 lh_170 clr_white op_06 mb-0"
+                    >
+                      In convallis pretium sem et quisque lacus turpis aliquam.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 position-relative pt-lg-0 pt-4">
+              <img
+                class="position-absolute w-75 input_blur"
+                src="./assets/images/png/input_blur.png"
+                alt="input_blur"
+              />
+              <div class="edit_input position-relative z-2">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <p class="ff_raleway fs_sm fw-medium clr_white mb-0">
+                      Full Name*
+                    </p>
+                    <input class="mt-1" type="text" placeholder="Full name" />
+                  </div>
+                  <div class="col-lg-6">
+                    <p class="ff_raleway fs_sm fw-medium clr_white mb-0">
+                      Email*
+                    </p>
+                    <input class="mt-1" type="email" placeholder="Your Email" />
+                  </div>
+                </div>
+                <p class="ff_raleway fs_sm fw-medium clr_white mb-0 pt-4">
+                  Message*
+                </p>
+                <textarea
+                  class="mt-1"
+                  name=""
+                  id="textarea"
+                  cols="50"
+                  rows="5"
+                  placeholder="Write here...."
+                ></textarea>
+                <div
+                  class="d-flex align-items-center pt-4 justify-content-lg-start justify-content-center"
+                >
+                  <input class="w_3" type="checkbox" name="" id="" />
+                  <p class="mb-0 ff_raleway fs_sm fw-medium clr_white ps-3">
+                    I agree to the
+                    <span class="clr_moreblue">Terms of service</span>
+                  </p>
+                </div>
+                <div class="text-lg-start text-center">
+                  <button
+                    class="ff_raleway fs_sm fw-bold clr_white bg_blue py_18 px_32 mt-4 btn_hovr"
+                  >
+                    Join Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ------------------------footer----------------- -->
+      <div class="foot_bg pt-lg-5 mt_m1">
+        <div class="container pt-5">
+          <div class="row justify-content-between pb-lg-5 pb-3">
+            <div class="col-lg-3 col-md-5">
+              <div>
+                <h1 class="ff_raleway fs_lg fw-bold clr_white">
+                  Bit<span class="clr_moreblue">Blue</span>
+                </h1>
+                <p class="ff_raleway fs_sm fw_400 clr_white op_06 pt-2 mb-0">
+                  Lorem ipsum dolor sit amet consectetur. Sed donec molestie at
+                  aliquam. Faucibus orci vestibulum
+                </p>
+                <div class="pt-4">
+                  <img
+                    class="scal_img"
+                    src="./assets/images/svg/twit.svg"
+                    alt="twit"
+                  />
+                  <img
+                    class="ms-4 scal_img"
+                    src="./assets/images/svg/fb.svg"
+                    alt="twit"
+                  />
+                  <img
+                    class="ms-4 scal_img"
+                    src="./assets/images/svg/insta.svg"
+                    alt="twit"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 pt-md-0 pt-4">
+              <div class="row">
+                <div class="col-md-6">
+                  <div>
+                    <p class="ff_raleway fs_sm fw-sembold clr_white">Company</p>
+                    <ul class="ps-0 mb-0">
+                      <li class="nav_underline">
+                        <a
+                          class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                          href="#"
+                          >Litepaper</a
+                        >
+                      </li>
+                      <li class="pt-2 nav_underline">
+                        <a
+                          class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                          href="#"
+                          >Case studies</a
+                        >
+                      </li>
+                      <li class="pt-2 nav_underline">
+                        <a
+                          class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                          href="#"
+                          >About
+                        </a>
+                      </li>
+                      <li class="pt-2 nav_underline">
+                        <a
+                          class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                          href="#"
+                          >Career</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-6 pt-sm-0 pt-4">
+                  <div>
+                    <p class="ff_raleway fs_sm fw-sembold clr_white">Help</p>
+                    <ul class="ps-0 mb-0">
+                      <li class="nav_underline">
+                        <a
+                          class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                          href="#"
+                          >Customer Support</a
+                        >
+                      </li>
+                      <li class="pt-2 nav_underline">
+                        <a
+                          class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                          href="#"
+                          >Information</a
+                        >
+                      </li>
+                      <li class="pt-2 nav_underline">
+                        <a
+                          class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                          href="#"
+                          >Terms & Conditions
+                        </a>
+                      </li>
+                      <li class="pt-2 nav_underline">
+                        <a
+                          class="ff_raleway fs_sm fw_400 clr_white op_06 clr_hovr_chng"
+                          href="#"
+                          >Privacy Policy</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="gray_line mt-3"></div>
+          <p
+            class="ff_raleway fs_sm fw_400 clr_white op_06 mb-0 py-4 text-center"
+          >
+            © Copyright 2022, All Rights Reserved by BitBlue
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- js---------- -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    >
+      // const navlink = document.querySelector(".menuicon");
+      //  const ul = document.querySelector("#navbar");
+      //  navlink.addEventListener("click", function () {
+      //    ul.classList.toggle("show");
+      //  });
+    </script>
+  </body>
+</html>
